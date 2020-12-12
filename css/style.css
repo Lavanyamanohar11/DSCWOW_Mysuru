@@ -147,7 +147,7 @@ body{
 /* star rating css*/
 * { box-sizing: border-box; }
 
-.container {
+.container-emoji {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");
   display: flex;
   flex-wrap: wrap;
@@ -262,7 +262,9 @@ body{
   margin-top:5px;
   margin-bottom:5px;
 }
-
+.footer-icon{
+    color:#ec524b;
+}
 
 /*star rating ends*/
 
