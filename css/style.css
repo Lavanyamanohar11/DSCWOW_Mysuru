@@ -105,6 +105,9 @@ body{
     height: 100vh;
     position: relative;
 }
+.about{
+    background:#ffe3d8;
+}
 
 .site-banner .banner-area .author{
     margin: 0;
