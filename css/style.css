@@ -324,7 +324,7 @@ body{
   
   .quiz-form__ans {
     border-radius: 0.8rem;
-    border: 2px solid #ec524b;
+    border: 2px solid #9088d4;
     padding: 0.8rem;
     color: #fff;
     position: relative;
@@ -419,7 +419,8 @@ body{
     border: none;
     border-radius: 100vh;
     padding: 0.8rem 1.5rem;
-    background: #ec524b;
+    /* background: #ec524b; */
+    background: #9088d4;
     color: #fff;
     font-family: inherit;
     text-transform: uppercase;
@@ -455,3 +456,13 @@ body{
   
 
 /*quiz end*/
+/* .para-0,.para-25,.para-50,.para-75,.para-100{
+  display:none;
+  font-size:1rem !important;
+} */
+.display-block{
+  display:block;
+}
+.display-none{
+  display:none;
+}

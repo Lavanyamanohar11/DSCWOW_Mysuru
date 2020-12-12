@@ -33,6 +33,10 @@ document.querySelector(".sub-btn").addEventListener("click", (e) => {
       }
     }
   });
+  document.getElementById('q12').parentElement.classList.add("correct");
+  document.getElementById('q24').parentElement.classList.add("correct");
+  document.getElementById('q32').parentElement.classList.add("correct");
+  document.getElementById('q41').parentElement.classList.add("correct");
 
   result.style.display = "block";
   let output = 0;
@@ -44,4 +48,17 @@ document.querySelector(".sub-btn").addEventListener("click", (e) => {
       output++;
     }
   }, 25);
+if(score ==0){
+  document.querySelector('.para-0').textContent = "It's high time that you visit and experience the exotic dreamland!";
+}else if(score==25){
+  document.querySelector('.para-0').textContent = "Ace it the next time by visiting the signature of excellence!";
+}
+else if(score==50){
+  document.querySelector('.para-0').textContent = "Crack it the next time by visiting the land of endless discoveries!";
+}else if(score==75){
+  document.querySelector('.para-0').textContent = "Perfect it the next time by visiting the dreamland of all seasons!";
+}
+else if(score==100){
+  document.querySelector('.para-0').textContent = "Amazing! Mysuru awaits your visit";
+}
 });
